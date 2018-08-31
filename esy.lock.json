@@ -1,5 +1,5 @@
 {
-  "hash": "8f72634858380a208467c7d1598e867e",
+  "hash": "5b9b46ba075375eab5a70439447dddf1",
   "root": "esy-test-sdl@path:.",
   "node": {
     "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#d488cd9321cd5036bd36ec96744ce78c5d45fc49": {
@@ -35,7 +35,7 @@
       },
       "dependencies": [
         "@opam/dune@opam:1.1.1", "@opam/ocamlfind@opam:1.8.0",
-        "@opam/tsdl@opam:0.9.6", "ocaml@4.6.5"
+        "@opam/topkg@opam:0.9.1", "@opam/tsdl@opam:0.9.6", "ocaml@4.6.5"
       ]
     },
     "@opam/tsdl@opam:0.9.6": {

@@ -21,6 +21,7 @@
   "dependencies": {
     "@opam/tsdl": "*",
     "@opam/ocamlfind": "*",
-    "@opam/dune": "*"
+    "@opam/dune": "*",
+    "@opam/topkg": "*"
   }
 }
