@@ -1,10 +1,12 @@
 {
-  "name": "esy-minimal-base-project",
+  "name": "esy-test-sdl",
   "version": "0.1.0",
   "description": "Reason workflow with Esy",
   "license": "MIT",
   "esy": {
-    "build": [],
+    "build": [
+        ["dune", "build", "test.exe"]
+    ],
     "buildsInSource": "_build"
   },
   "peerDependencies": {
@@ -14,6 +16,8 @@
     "ocaml": "~4.6.0"
   }, 
   "dependencies": {
-    "@opam/base": "*"
+    "@opam/tsdl": "*",
+    "@opam/ocamlfind": "*",
+    "@opam/dune": "*"
   }
 }
