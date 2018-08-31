@@ -15,6 +15,9 @@
   "devDependencies": {
     "ocaml": "~4.6.0"
   }, 
+  "resolutions": {
+    "sdl2": "github:bsansouci/SDL-mirror#eb7279c"
+  },
   "dependencies": {
     "@opam/tsdl": "*",
     "@opam/ocamlfind": "*",
